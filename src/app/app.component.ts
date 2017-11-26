@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Christina Hsieh';
+  isExpanded = true;
+
+  toggleState() {
+    this.isExpanded = !this.isExpanded;
+  }
 }
